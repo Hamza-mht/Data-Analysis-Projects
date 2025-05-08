@@ -11,8 +11,6 @@ Colonnes à nettoyer :
 
 - purchase date → convertir en format datetime
 
-- unit price, quantity, total amount → vérifier cohérence (unit price * quantity = total amount)
-
 - customer name → enlever les doublons si des clients apparaissent plusieurs fois
 
 ## 📊 Étape 2 : Analyse exploratoire (EDA)
@@ -23,7 +21,7 @@ Colonnes à nettoyer :
 
 - Répartition par genre (gender)
 
-- Répartition par âge (customer age) → créer des tranches d’âge : 18–25, 26–35, etc.
+- Répartition par âge (customer age) → créer des tranches d’âge : 18–30, 30–60, etc.
 
 ➤ 2. Analyse par produit
 - Top 10 des produits les plus vendus (en volume et CA)
